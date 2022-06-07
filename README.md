@@ -1,6 +1,6 @@
 # Summer22
 ## stuff I've done
-1. filtered multiexon genes out of yeast (s288) gencode annotation, only got rid of ~400 genes (can look into these later but want everything as simple as possible for now)
+1. filtered multiexon genes and non protein coding genes out of yeast (s288) gencode annotation, only got rid of ~400 genes (can look into these later but want everything as simple as possible for now)
 2. used bedtools to get sequences of genes out. 
    bedtools getfasta -fi yeast.fasta -bed  yeast_single_exon.gff -s > out.fa 
 3. used split_rel_adapt.py to convert the relative adaptiveness table into a more usable format
