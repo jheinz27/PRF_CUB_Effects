@@ -3,5 +3,8 @@
 2. Verify relative adaptation scores for S.cerevesia from webtool
 
 ## Steps
-1. yeast_rel_adapt.txt contains the table of rel adpt from the website
-2. 
+1. yeast_rel_adapt.txt contains the table of rel adapt from the website
+2. Use split_rel_adapt.py to change yeast_rel_adapt.txt into a more usable format
+3. Final file is yeast_rel_adapt_adj.txt
+4. Use notebook to calculate relative adaption scores in yeast by hand. Uses all single exon protein coding genes in yeast
+5. 
