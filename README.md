@@ -8,7 +8,8 @@
 
 ## Predictions
 
-**predict_prfs.py -fi (fasta file ) -b (bp of buffer for making ranges) -w (window size bp) -o (output.tsv)**
+**predict_prfs.py -fi (fasta file ) -b (bp of buffer for making ranges) -w (window size bp) -o (output.tsv)** Return regions of high CAI scores aka a prediction of a PRF site
+
 **calc_accuracy.py < prediction_output.txt** Calculate the accuracies of the predicted regions and how many known PRFs were found
 
 ## mRNAs of similar lengths 
